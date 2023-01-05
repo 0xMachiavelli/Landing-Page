@@ -5,7 +5,10 @@ body {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
+    /* align-items: center; */
 }
+
+/* This contains all the css for the top block */
 
 .header {
     display: flex;
@@ -13,11 +16,19 @@ body {
     justify-content: space-between;
 }
 
+/* This contains all the css for the 2nd block */
+
 .container1 {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
+
+.container1text {
+    max-width: 500px;
+}
+
+/* This contains all the css for the 3rd block */
 
 .container2 {
     display: flex;
@@ -37,11 +48,32 @@ body {
     align-items: center;
 }
 
+.img-links {
+    max-width: 150px;
+}
+
+.container2img {
+    max-width: 150px;
+    max-height: 150px;
+    height: auto;
+    margin: 5px;
+    border: 5px;
+}
+
+.container2img img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+/* This contains all the css for the 4th block */
+
 .container3 {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
-    align-content: center;
+    max-width: 600px;
+    /* text-align: center; */
+    align-self: center;
 }
 
 .container3sign {
@@ -55,12 +87,11 @@ body {
     align-items: center;
 }
 
-
+/* This contains all the css for the bottom block */
 
 .footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-
 }

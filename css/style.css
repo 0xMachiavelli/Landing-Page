@@ -5,7 +5,9 @@ body {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    /* align-items: center; */
+    background-image: url(../images/landing-page-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* This contains all the css for the top block */

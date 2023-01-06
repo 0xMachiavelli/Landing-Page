@@ -6,6 +6,7 @@ body {
     flex-flow: column wrap;
     justify-content: space-between;
     background-image: url(../images/landing-page-background.jpg);
+    background-color: rgb(78, 78, 78);
     background-repeat: no-repeat;
     background-size: cover;
 }

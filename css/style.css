@@ -27,7 +27,6 @@ body {
     height: 50px;
     border-radius: 100%;
     border: 4px solid rgb(112, 112, 255);
-    padding: 4px;
     margin: 5px 50px;
     align-self: center;
 }

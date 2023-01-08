@@ -51,16 +51,24 @@ body {
     border-right: none;
 }
 
+a {
+    color: rgb(9, 0, 49)
+}
 /* This contains all the css for the 2nd block */
 
 .container1 {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    background-image: linear-gradient( rgb(8, 0, 102), rgb(0, 179, 211));
+    padding: 100px;
+    border: 3px solid rgb(44, 44, 104);
+    border-left: none;
+    border-right: none;
 }
 
 .container1text {
-    max-width: 500px;
+    max-width: 200px;
 }
 
 /* This contains all the css for the 3rd block */

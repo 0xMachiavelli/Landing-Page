@@ -51,7 +51,7 @@ body {
     border-right: none;
 }
 
-tabs, li >* {
+.tabs, li >* {
     color: rgb(9, 0, 49)
 }
 /* This contains all the css for the 2nd block */
@@ -88,6 +88,7 @@ tabs, li >* {
     margin: 10px 25px 10px 100px;
     border: 3px solid rgb(44, 44, 104);
     background-color: rgb(78, 78, 78);
+    border-radius: 40px;
     width: 400px;
     height: auto;
     line-height: 200px;

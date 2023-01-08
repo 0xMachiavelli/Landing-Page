@@ -51,7 +51,7 @@ body {
     border-right: none;
 }
 
-a {
+tabs, li >* {
     color: rgb(9, 0, 49)
 }
 /* This contains all the css for the 2nd block */
